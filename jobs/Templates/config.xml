@@ -10,7 +10,7 @@
       <hudson.plugins.git.UserRemoteConfig>
         <name></name>
         <refspec></refspec>
-        <url>git@github.com:stelligent/devopsinthecloud.git</url>
+        <url>git@github.com:anthonyd-ness/devopsinthecloud.git</url>
       </hudson.plugins.git.UserRemoteConfig>
     </userRemoteConfigs>
     <branches>
@@ -52,7 +52,7 @@
   <builders/>
   <publishers>
     <hudson.plugins.s3.S3BucketPublisher>
-      <profileName>stelligentlabs</profileName>
+      <profileName>ditcndoartifacts</profileName>
       <entries>
         <hudson.plugins.s3.Entry>
           <bucket>ditcnjdartifacts/templates</bucket>

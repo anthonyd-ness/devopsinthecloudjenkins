@@ -9,12 +9,12 @@
         <hudson.model.StringParameterDefinition>
           <name>PrivateBucket</name>
           <description></description>
-          <defaultValue>stelligentlabs-private</defaultValue>
+          <defaultValue>ditcndoartifacts-private</defaultValue>
         </hudson.model.StringParameterDefinition>
         <hudson.model.StringParameterDefinition>
           <name>PublicBucket</name>
           <description></description>
-          <defaultValue>stelligentlabs</defaultValue>
+          <defaultValue>ditcndoartifacts</defaultValue>
         </hudson.model.StringParameterDefinition>
         <hudson.model.StringParameterDefinition>
           <name>KeyName</name>
@@ -30,7 +30,7 @@
       <hudson.plugins.git.UserRemoteConfig>
         <name></name>
         <refspec></refspec>
-        <url>git@github.com:stelligent/devopsinthecloud.git</url>
+        <url>git@github.com:anthonyd-ness/devopsinthecloud.git</url>
       </hudson.plugins.git.UserRemoteConfig>
     </userRemoteConfigs>
     <branches>
